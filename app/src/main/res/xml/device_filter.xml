@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Your specific capture card -->
+    <usb-device vendor-id="13407" product-id="8496" />
+
+    <!-- USB Video Class devices -->
+    <usb-device class="14" subclass="1" protocol="0" />
+    <usb-device class="14" subclass="2" protocol="0" />
+    <usb-device class="14" />
+
+    <!-- Common HDMI Capture Card vendors -->
+    <usb-device vendor-id="0x0fd9" />  <!-- Elgato -->
+    <usb-device vendor-id="0x07ca" />  <!-- AverMedia -->
+    <usb-device vendor-id="0x2935" />  <!-- Magewell -->
+    <usb-device vendor-id="0x1bcf" />  <!-- Generic UVC -->
+    <usb-device vendor-id="0x05e3" />  <!-- Generic -->
+    <usb-device vendor-id="0x1b71" />  <!-- Generic -->
+    <usb-device vendor-id="0x0711" />  <!-- Generic -->
+
+    <!-- Fallback for other UVC devices -->
+    <usb-device class="2" />   <!-- CDC-ACM class -->
+    <usb-device class="10" />  <!-- CDC-DATA class -->
+</resources>

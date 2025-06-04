@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HDMI Capture Viewer</string>
+
+    <!-- Button text -->
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+
+    <!-- Status messages -->
+    <string name="no_device_connected">No device connected</string>
+    <string name="device_detected">Device detected: %1$s</string>
+    <string name="device_connected">Device connected</string>
+    <string name="device_disconnected">Device disconnected</string>
+    <string name="connection_failed">Connection failed</string>
+    <string name="camera_opened">Camera opened</string>
+    <string name="camera_closed">Camera closed</string>
+    <string name="camera_error">Camera error: %1$s</string>
+    <string name="streaming">Streaming</string>
+    <string name="ready_to_connect">Ready to connect</string>
+    <string name="connection_cancelled">Connection cancelled</string>
+
+    <!-- Permissions -->
+    <string name="camera_permission_required">Camera permission required</string>
+</resources>
